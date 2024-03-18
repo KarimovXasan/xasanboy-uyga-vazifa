@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #FBF8EC;
+}
+
+/* nav-qism */
+
+.btn-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.father-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+[nav-btn] {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    margin-top: 19px;
+    border: none;
+    padding: 8px 40px;
+    margin-left: 10px;
+    background-color: #70C05B;
+    color: white;
+
+}
+
+.input1 {
+    margin-right: 20px;
+    padding-top: 10px;
+}
+
+/* head */
+
+.bg-img-head {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.schr {
+    position: relative;
+    margin-right: 60px;
+}
+
+.xasanboy {
+    font-family: Rubik;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.card1 {
+    margin-top: 20px;
+    background-color: white;
+    width: 272px;
+    border-radius: 10px;
+}
+
+.paragrof-card1 {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 8px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.dollar {
+    margin-left: 130px;
+    margin-right: 2px;
+}
+
+.img-head {
+    margin-top: 10px;
+}
+
+.blinchik {
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.header-class-basket {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    width: 95%;
+    margin: 10px auto;
+    color: rgba(112, 192, 91, 1);
+    padding: 8px 23px;
+    border: 1px solid rgba(112, 192, 91, 1);
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+.header-class-basket-btn {
+    background-color: #FF6633;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    width: 95%;
+    margin: 10px auto;
+    color: white;
+    padding: 8px 23px;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 5px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Yangi {
+    font-family: Rubik;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.car3 {
+    border-radius: 10px;
+    background-color: #fff;
+    width: 272px;
+}
+
+.blinchik2 {
+    margin-top: 20px;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.cards2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hevdhhhhhhhhhhhhhhhhhhhhhhhhhj{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    nav{
+        width: 600px;
+    }
+    
+    .logotip {
+        width: 50;
+        margin-left: 5px;
+    }
+
+    [nav-btn] {
+        display: none;
+    }
+
+    .input1 {
+        margin-right: 1000px;
+        margin-left: 20px;
+        font-family: Rubik;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 8px 23px;
+        border: 1px solid rgba(112, 192, 91, 1);
+        border-radius: 4px;
+        background-color: transparent;
+    }
+
+    .schr {
+        display: none;
+    }
+
+    .account {
+        display: none;
+    }
+
+    .bg-img-head {
+        width: 35%;
+        justify-content: center;
+        margin-left: 10px;
+    }
+
+    .xasanboy{
+       margin-left: 160px;
+       margin-right: 20px;
+    }
+
+    header{
+        flex-wrap: wrap;
+        margin-left: 10px;
+    }
+
+    .cards{
+        width: 200px;
+        flex-wrap: wrap;
+        margin-left: 80px;
+        margin-right: 20px;
+    }
+
+    .cards2{
+        width: 200px;
+        flex-wrap: wrap;
+        margin-left: 80px;
+        margin-right: 20px;
+    }
+
+    .Yangi{
+        margin-left: 160px;
+        margin-right: 20px;
+    }
+
+    .hevdhhhhhhhhhhhhhhhhhhhhhhhhhj{
+        width: 200px;
+        flex-wrap: wrap;
+        margin-left: 80px;
+        margin-right: 20px;
+    }
+      
+    .father{
+        display: none;
+    }
+
+    footer{
+        width: 100px;
+    }
+
+    .img-footer{
+        display: none;
+    }
+
+    .Покупали{
+display: none;
+    }
+}
